@@ -5958,12 +5958,20 @@ a {
   border: 0; }
   .navbar .navbar-brand {
     color: #252525; }
+  .navbar .navbar-toggle {
+    border-color: #4759A7; }
+    .navbar .navbar-toggle .icon-bar {
+      background-color: #252525; }
+    .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+      background-color: #4cb84a; }
+    .navbar .navbar-toggle:hover .icon-bar, .navbar .navbar-toggle:focus .icon-bar {
+      background-color: #FFF; }
 
 /* Page */
 .page {
   padding-top: 15px;
   padding-bottom: 15px;
-  width: 800px;
+  max-width: 800px;
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
   background: #FFF;
   margin-bottom: 30px; }
