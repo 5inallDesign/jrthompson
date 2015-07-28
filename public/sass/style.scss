@@ -67,13 +67,25 @@ a {
 	.navbar-brand {
 		color: $black;
 	}
+	.navbar-toggle {
+		border-color: $blue;
+		.icon-bar {
+			background-color: $black;
+		}
+		&:hover, &:focus {
+			background-color: #4cb84a;
+		}
+		&:hover .icon-bar, &:focus .icon-bar {
+			background-color: #FFF;
+		}
+	}
 }
 
 /* Page */
 .page {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	width: 800px;
+	max-width: 800px;
 	@include shadow-4();
 	background: #FFF;
 	margin-bottom: 30px;
