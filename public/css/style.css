@@ -5987,5 +5987,7 @@ a {
     margin-bottom: 2px; }
 
 /* Form */
+.form input, .form select, .form textarea {
+  font-size: 16px; }
 .form .alert {
   margin-bottom: 5px; }
